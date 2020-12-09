@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="application/javascript" src="js/addmanufacturer.js"></script>
+
+<body>
+    <h1>Insert Manufacturer</h1>
+    <form id="manufacturerForm"
+        action="javascript:insert('https://webtechcars.herokuapp.com/api/manufacturers', 'manufacturerForm')">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Founded</th>
+            </tr>
+            <tr>
+                <td><input id="name" type="text" required="required" /></td>
+                <td><input id="country" type="text" required="required" /></td>
+                <td><input id="founded" type="date" required="required" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Add" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

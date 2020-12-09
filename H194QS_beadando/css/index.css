@@ -1,0 +1,144 @@
+body{
+    background:url(../images/hatter.png);
+	background-size: 100%;
+}
+a:Link{
+    color:ghostwhite;
+    text-decoration: none;
+}
+a:visited{
+    color:ghostwhite;
+    text-decoration: none;
+}
+button{
+    background-color: dimgray;
+    color: white;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+#everything{
+    margin: auto;
+    width: 100%;
+    alignment: left;
+}
+#banner{
+    height: 60px;
+    margin: 0px 50px 0px 50px;
+    font-size: 80px;
+    color: white;
+    text-align: left;
+}
+#menuBar{
+    margin-top: 40px;
+    background: lightgrey;
+    font-size: 17px;
+    alignment: left;
+}
+#menuBar .menuButton{
+    width: 160px;
+    height: 20px;
+    background: dimgray;
+    border: none;
+    padding: 10px auto;
+    text-align: center;
+    color: dimgray;
+    margin: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+#menuBar .menuButton:HOVER{
+    background-color: black;
+}
+#content_outer{
+    background: lightgrey;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#content{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#header{
+    text-align: left;
+    font-size: 45px;
+    color: dimgray;
+}
+#Description{
+    display: none;
+    padding-bottom: 5px;
+}
+#allTable{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    alignment: center;
+    border: none;
+}
+#allTableth{
+    border: none;
+    font-size: 20px;
+    height: 25px;
+}
+#allTabletd{
+    border: none;
+}
+
+input[type=text], input[type=date], input[type=number], select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: dimgray;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+}
+input[type=submit]:HOVER {
+    background-color: black;
+}
+.container{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list_container{
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.carlist_container{
+    margin: auto;
+    padding-bottom: 10px;
+}

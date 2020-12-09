@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="application/javascript" src="js/delete.js"></script>
+<script>
+    $.ajaxSetup({
+        async: false
+    });
+    load("https://webtechcars.herokuapp.com/api/cars", "car");
+    appendCheckBoxes("car");
+    $.ajaxSetup({
+        async: true
+    });
+</script>
+
+<body>
+    <h1>Delete Car</h1>
+    <table id="car">
+        <input type="submit" onclick="remove('https://webtechcars.herokuapp.com/api/cars', 'car')" value="Delete Car" />
+    </table>
+</body>
+
+</html>

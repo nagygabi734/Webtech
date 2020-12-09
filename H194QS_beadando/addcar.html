@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="application/javascript" src="js/addcar.js"></script>
+
+<body>
+        <h1>Add Car</h1>
+        <form id="carForm" action="javascript:insert('https://webtechcars.herokuapp.com/api/cars', 'carForm')">
+                <table>
+                        <tr>
+                                <th>Name</th>
+                                <th>Consumption</th>
+                                <th>Color</th>
+                                <th>Manufacturer</th>
+                                <th>Available</th>
+                                <th>Year</th>
+                                <th>Horsepower</th>
+                        </tr>
+                        <tr>
+                                <td><input id="name" type="text" required="required" /></td>
+                                <td><input id="consumption" type="text" required="required" /></td>
+                                <td><input id="color" type="text" required="required" /></td>
+                                <td><input id="manufacturer" type="text" required="required"></select></td>
+                                <td><input id="avaiable" type="number" required="required" /></td>
+                                <td><input id="year" type="number" /></td>
+                                <td><input id="horsepower" type="number" required="required" /></td>
+                        </tr>
+                        <tr>
+                                <td><input type="submit" value="Add" /></td>
+                        </tr>
+                </table>
+        </form>
+</body>
+
+</html>
